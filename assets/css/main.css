@@ -54,6 +54,10 @@ table {
 body {
 	-webkit-text-size-adjust: none;
 }
+.chuluka{
+	padding-top: 0;
+	padding-bottom: 3px;
+}
 
 mark {
 	background-color: transparent;
@@ -2596,6 +2600,7 @@ input, select, textarea {
 
 		.image img {
 			display: block;
+			
 		}
 
 		.image.left, .image.right {
@@ -3983,6 +3988,8 @@ input, select, textarea {
 
 		#footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6 {
 			color: #717981;
+			
+			
 		}
 
 		#footer blockquote {
@@ -4247,7 +4254,13 @@ input, select, textarea {
 					#footer > section.split.contact > section > * {
 						margin-bottom: 0;
 					}
-
+                    .newContact{
+                      display: flex;
+					  margin:20px 20px 20px 20px;
+					  padding:auto;
+					  align-items: center;
+					  
+					}
 					#footer > section.split.contact > section > :first-child {
 						-moz-flex-shrink: 0;
 						-webkit-flex-shrink: 0;
